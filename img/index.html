@@ -1,1020 +1,174 @@
-
-
-    
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <title>CIPHER</title>
-        
-    <link href="img/fav.png" rel="shortcut icon" />
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-k6RqeWeci5ZR/Lv4MR0sA0FfDOMv49TTg30p3hsT0Hntsw0x1f5e5kQGTCevFJtk3U6P39QmgJ7g9PIxUJYJFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    
-        <link rel="stylesheet" type="text/css" href="https://cipher.com.co/css/plugins.css">
-        <link rel="stylesheet" type="text/css" href="https://cipher.com.co/css/theme-styles.css">
-        <link rel="stylesheet" type="text/css" href="https://cipher.com.co/css/blocks.css">
-        <link rel="stylesheet" type="text/css" href="https://cipher.com.co/css/widgets.css">
-    
-        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i,900," rel="stylesheet">
-    
-    
-        <!--Styles for RTL-->
-    
-        <!--<link rel="stylesheet" type="text/css" href="css/rtl.css">-->
-    
-    
-    </head>
-    
-    <body class="crumina-grid">
-    
-    <!-- Preloader -->
-    
-    
-    
-    <!-- Header -->
-        <div style="color:#fff;padding-left:40%" >
-          <!--  <a href="https://cifinex.com/public/airdropwinners" target="_blank" class="c-primary">Winners list Airdrop August 2021</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://cifinex.com/public/cipherairdrop2021winnerslist" target="_blank" class="c-primary">CIPHER (CPR) AIRDROP 2021 WINNERS LIST</a>-->
-       <!--  <a href="https://ciphercpr.com/bep20airdrop.php" target="_blank" class="c-primary">CIPHER (CPR) BEP20 AIRDROP</a> 
-        <a href="bep_winners_list.php"  class="c-primary">CIPHER (CPR) BEP20 WINNERS LIST</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="asset_winners_list.php"  class="c-primary">CPR Asset lucky winners list</a>
-         <a href="wallet_submission_form.php"  class="c-primary">0xPolygon wallet submission form</a>-->
-          </div>
-    
-    <header class="header" id="site-header" style="padding:0px">
-        
-        <div class="container">
-            
-            <div class="header-content-wrapper">
-                <a href="index.php" class="site-logo">
-                    <img src="img/logo-primary123.png" alt="Cipher">
-                </a>
-    
-                <nav id="primary-menu" class="primary-menu">
-    
-                    <!-- menu-icon-wrapper -->
-    
-                    <a href='javascript:void(0)' id="menu-icon-trigger" class="menu-icon-trigger showhide">
-                        <span class="mob-menu--title">Menu</span>
-                        <span id="menu-icon-wrapper" class="menu-icon-wrapper">
-                            <svg width="1000px" height="1000px">
-                                <path id="pathD" d="M 300 400 L 700 400 C 900 400 900 750 600 850 A 400 400 0 0 1 200 200 L 800 800"></path>
-                                <path id="pathE" d="M 300 500 L 700 500"></path>
-                                <path id="pathF" d="M 700 600 L 300 600 C 100 600 100 200 400 150 A 400 380 0 1 1 200 800 L 800 200"></path>
-                            </svg>
-                        </span>
-                    </a>
-    
-                    <ul class="primary-menu-menu">
-                        <li>
-                            <a href="index.php">Home</a>
-                        </li>
-    
-                        <li class="menu-item-has-children">
-                            <a href="#">Blockchain</a>
-                            <ul class="sub-menu">
-                            
-                            
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        Ethereum Blockchain
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="about_ethereum.php">About Ethereum</a>
-                                        </li>
-                                        <li>
-                                            <a href="token_contract.php#ethereum">Token Contract</a>
-                                        </li>
-    
-                                        <li>
-                                            <a href="wallet_ethereum.php">Wallet</a>
-                                        </li>
-    
-                                        <li>
-                                            <a href="ethereum_ethereum.php">Exchange</a>
-                                        </li>
-                                            <li>
-                                            <a href="https://etherscan.io/token/0x20AE0cA9D42e6Ffeb1188F341A7D63450452dEF6" target="_blank">Etherscan
-    </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            
-                                
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        Polygon PoS
-                                    </a>
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="about_polygon.php">About Polygon PoS</a>
-                                        </li>
-                                        <li>
-                                            <a href="token_contract.php#polygon">Token Contract</a>
-                                        </li>
-    
-                                        <li>
-                                            <a href="wallet_polygon.php">Wallet</a>
-                                        </li>
-    
-                                        <li>
-                                            <a href="exchange_polygon.php" target="_blank">Exchange</a>
-                                        </li>
-                                        
-                                            <li>
-                                            <a href="https://polygonscan.com/" target="_blank">Explorer
-    </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-    
-                        <li class="menu-item-has-children">
-                            <a href="#about">About</a>
-                            <ul class="sub-menu sub-menu--with-icons">
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        About <span>Us</span>
-                                        <svg class="woox-icon icon-arrow-right-line">
-                                            <use xlink:href="#icon-arrow-right-line"></use>
-                                        </svg>
-                                        
-                                    </a>
-                                    
-                                    <ul class="sub-menu">
-                                        <li>
-                                            <a href="company.php">Company</a>
-                                        </li>
-                                        <li>
-                                            <a href="cipher.php">Cipher</a>
-                                        </li>
-    
-                                    
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="#">
-                                        Management 
-                                        <svg class="woox-icon icon-arrow-right-line">
-                                            <use xlink:href="#icon-arrow-right-line"></use>
-                                        </svg>
-                                    </a>
-                                    
-                                        <ul class="sub-menu">
-                                        <li>
-                                            <a href="team.php">Team</a>
-                                        </li>
-                                        <li>
-                                            <a href="advisors.php">Advisors</a>
-                                        </li>
-    
-                                    
-                                    </ul>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="roadmap.php">
-                                        Roadmap
-                                        <svg class="woox-icon icon-arrow-right-line">
-                                            <use xlink:href="#icon-arrow-right-line"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="supporters.php">
-                                        Supporters 
-                                        <svg class="woox-icon icon-arrow-right-line">
-                                            <use xlink:href="#icon-arrow-right-line"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                                <li class="menu-item-has-children">
-                                    <a href="community.php" >
-                                        Community
-                                        <svg class="woox-icon icon-arrow-right-line">
-                                            <use xlink:href="#icon-arrow-right-line"></use>
-                                        </svg>
-                                    </a>
-                                </li>
-                            </ul>
-    
-                        </li>
-    
-                        <li class="menu-item-has-mega-menu menu-item-has-children">
-                            <a href="#">Market</a>
-                            <div class="megamenu megamenu-bg">
-                                <div class="megamenu-row">
-    
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Charts</h5>
-                                            </li>
-                                            <li>
-                                                <a href="https://cipher.com.co/ciphermarketcap" target="_blank">Global Charts Coin/Token</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://cipher.com.co/ciphermarketcap/en/crypto-exchanges"  target="_blank">Global Charts Exchange</a>
-                                            </li>
-                                        
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Market Cap</h5>
-                                            </li>
-                                            <li>
-                                                <a href="top_chart.php">Cipher Market</a>
-                                            </li>
-    
-                                            <li>
-                                                <a href="https://cipher.com.co/exchange/public/ledger" target="_blank">Cipher Public Ledger</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Tools</h5>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="currency_converter.php" >Currency Converter</a>
-                                            </li>
-                                        
-                                        
-                                        </ul>
-                                    </div>
-    
-                                    <div class="col4">
-    
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </li>
-    
-                        <li class="menu-item-has-mega-menu menu-item-has-children" style="display:none">
-                            <a href="#">Events</a>
-    
-                            <div class="megamenu megamenu-with-slider">
-    
-                                <div class="crumina-module crumina-module-slider slider-item--equal-height">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="crumina-module crumina-heading heading--with-decoration heading--h5">   <h5 class="heading-title">Upcoming Events</h5>   <div class="heading-text">Investigationes demonstraverunt lectores legere me lius      quod ii legunt faucibus ac feugiat sed lectus.   </div></div>
-                                            <div class="swiper-btn-wrap">
-                                                <div class="swiper-btn-prev">
-                                                    <svg class="woox-icon icon-line-arrow-left">
-                                                        <use xlink:href="#icon-line-arrow-left"></use>
-                                                    </svg>
-                                                </div>
-    
-                                                <div class="swiper-btn-next">
-                                                    <svg class="woox-icon icon-line-arrow-right">
-                                                        <use xlink:href="#icon-line-arrow-right"></use>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-9">
-                                            <div class="swiper-container" data-show-items="3" data-prev-next="1">
-                                                <div class="swiper-wrapper">
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="crumina-module crumina-event-item">
-                                                            <div class="event-thumb bg-event1">
-                                                                <div class="overlay"></div>
-                                                            </div>
-                                                            <div class="event-content">
-                                                                <div class="event-date">
-                                                                    <svg class="woox-icon icon-school-calendar">
-                                                                        <use xlink:href="#icon-school-calendar"></use>
-                                                                    </svg>
-                                                                    March 16, 2018
-                                                                </div>
-                                                                <h6 class="event-title">What is Bitcoin? A Step-By-Step Guide For Beginners</h6>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <a href="#" class="crumina-module crumina-event-item">
-                                                            <div class="event-thumb bg-event2">
-                                                                <div class="overlay"></div>
-                                                            </div>
-                                                            <div class="event-content">
-                                                                <div class="event-date">
-                                                                    <svg class="woox-icon icon-school-calendar">
-                                                                        <use xlink:href="#icon-school-calendar"></use>
-                                                                    </svg>
-                                                                    March 16, 2018
-                                                                </div>
-                                                                <h6 class="event-title">Apply them in Your Own Routines</h6>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                    <div class="swiper-slide">
-                                                        <a href="008_event_register.php" class="crumina-module crumina-event-item">
-                                                            <div class="event-thumb bg-event3">
-                                                                <div class="overlay"></div>
-                                                            </div>
-                                                            <div class="event-content">
-                                                                <div class="event-date">
-                                                                    <svg class="woox-icon icon-school-calendar">
-                                                                        <use xlink:href="#icon-school-calendar"></use>
-                                                                    </svg>
-                                                                20/02/2021 
-                                                                </div>
-                                                                <h6 class="event-title">Weekly online meeting at 11.30 GMT. Language: English . Place: https://ciphermeeting.com</h6>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-    
-                            </div>
-                        </li>
-                      
-                    
-                      
-                      <li class="">
-                            <a href="exchange/public">Exchange</a>
-                        </li>
-    
-                        <li class="menu-item-has-mega-menu menu-item-has-children">
-                            <a href="#">Services</a>
-                            <div class="megamenu">
-                                <div class="megamenu-row">
-    
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Applications</h5>
-                                            </li>
-                                            <li>
-                                                <a href="web_applications.php">Web App</a>
-                                            </li>
-                                            <li>
-                                                <a href="mobile_applications.php">Mobile App</a>
-                                            </li>
-                                                <li>
-                                                <a  href="https://cipherswap.com/" target="_blank" >DEX</a>
-                                            </li>
-                                            <li>
-                                                <a  href="https://cipher.com.co/exchange/public" target="_blank">P2P Exchange</a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a  href="https://ciphernft.org/" target="_blank">Cipher NFT</a>
-                                            </li>
-                                        
-    
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Pair</h5>
-                                            </li>
-                                        
-                                            
-                                            <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">CPR/ETH</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">CPR/MATIC</a>
-                                            </li>
-                                            <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">CPR/BTC</a>
-                                            </li>
-                                                <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">CPR/USDC</a>
-                                            </li>
-                                        <li>
-                                                <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">CPR/USDT</a>
-                                            </li>
-                                        
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">News</h5>
-                                            </li>
-                                            <li>
-                                                <a href="https://twitter.com/ciphertoken?t=oqRz0Nfsf9yOhcEJXGlUTQ&s=09"  target="_blank">News Page</a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="https://ciphertoken.medium.com"  target="_blank">Blog</a>
-                                            </li>
-                                                <li>
-                                                <a href="events.php">Events</a>
-                                            </li>
-                                                <li>
-                                                <a href="https://cipher.com.co/exchange/public" target="_blank">Affiliate</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Legal</h5>
-                                            </li>
-                                            <li>
-                                                <a href="regulation.php">Regulation,Tax & Rights</a>
-                                            </li>
-                                            <li>
-                                                <a href="audit.php">Audit</a>
-                                            </li>
-                                            <li>
-                                                <a href="terms.php" >Terms & Conditions</a>
-                                            </li>
-                                            <li>
-                                                <a href="privacy.php"  >Privacy Policy</a>
-                                            </li>
-                                            <li>
-                                                <a href="disclaimer.php">Disclaimer & Caution</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </li>
-                        
-                        
-                            <li class="menu-item-has-mega-menu menu-item-has-children" style="display:none">
-                            <a href="#">Pages</a>
-                            <div class="megamenu">
-                                <div class="megamenu-row">
-    
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Standard Pages</h5>
-                                            </li>
-                                            <li>
-                                                <a href="009_news.php">News Page</a>
-                                            </li>
-                                            <li>
-                                                <a href="010_news_details.php">News Details</a>
-                                            </li>
-                                            <li>
-                                                <a href="012_page_not_found.php">Not Found</a>
-                                            </li>
-                                            <li>
-                                                <a href="028_typography.php">Typography</a>
-                                            </li>
-                                            <li>
-                                                <a href="030_icons.php">Icons</a>
-                                            </li>
-    
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Elements</h5>
-                                            </li>
-                                            <li>
-                                                <a href="013_pricing_tables.php">Pricing Tables</a>
-                                            </li>
-                                            <li>
-                                                <a href="014_forms.php">Forms</a>
-                                            </li>
-                                            <li>
-                                                <a href="015_quotes.php">Quotes</a>
-                                            </li>
-                                            <li>
-                                                <a href="016_testimonial_styles.php">Testimonials</a>
-                                            </li>
-                                            <li>
-                                                <a href="017_tabs.php">Tabs</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Elements</h5>
-                                            </li>
-                                            <li>
-                                                <a href="018_tables.php">Tables</a>
-                                            </li>
-                                            <li>
-                                                <a href="019_expert_hover_effects.php">Experts</a>
-                                            </li>
-                                            <li>
-                                                <a href="029_colors.php">Colors</a>
-                                            </li>
-                                            <li>
-                                                <a href="021_benefits.php">Benefits</a>
-                                            </li>
-                                            <li>
-                                                <a href="022_accordion_toggle.php">Accordions</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="col4">
-                                        <ul>
-                                            <li class="megamenu-item-info">
-                                                <h5 class="megamenu-item-info-title">Elements</h5>
-                                            </li>
-                                            <li>
-                                                <a href="023_alerts_message.php">Alerts</a>
-                                            </li>
-                                            <li>
-                                                <a href="024_progress_bars.php">Progress bars</a>
-                                            </li>
-                                            <li>
-                                                <a href="025_button_styles.php">Buttons</a>
-                                            </li>
-                                            <li>
-                                                <a href="026_counters_and_timers.php">Counters</a>
-                                            </li>
-                                            <li>
-                                                <a href="027_headings.php">Headings</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </li>
-    
-                        <li class="">
-                            <a href="app.php" >Products</a>
-                        </li>
-                      <li class="">
-                            <a href="https://cipher.com.co/cipherlifestyle/public/stores/cipherbranded" target="_blank" >Shop</a>
-                        </li>
-                      
-                      
-                        <li class="">
-                            <a href="011_contacts.php">Contact</a>
-                        </li>
-                      <li class="">
-                            <a href="https://cipher.com.co/exchange/public/login" >Login/Register</a>
-                        </li>
-                      <li class="menu-item-has-children">
-                            <a href="#">Migration</a>
-                            <ul class="sub-menu sub-menu--with-icons">
-                                <li class="menu-item-has-children">
-                                    <a href="migration_policy.php">
-                                        Migration <span>Policy</span>
-                            
-                                    </a>
-                              </li>
-                              
-                          
-                        </ul>  
-                        
-                        </li> 
-                    </ul>
-    
-                </nav>
-                
-            
-            
-            </div>
-            
-            
-        </div>
-        
-    </header>
-    
-
-<!-- main section -->
-    <div class="hero-section">
-        <div class="hero-image">
-            <img src="../img/cipher-new.png" alt="Logo">
-        </div>
-        <div class="hero-content">
-            <h1>We make technology accessible</h1>
-            <h2>Blockchain solutions</h2>
-            <p>Accountability. Credibility. Transparency.</p>
-            <div class="hero-buttons">
-                <a href="#" class="btn">Whitepaper</a>
-                <a href="#" class="btn">Roadmap</a>
-            </div>
-        </div>
-    </div>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+</head>
+<body>
     <style>
-          .container {
+        .cipher-icon-image-slider {
+            position: relative;
+            width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            background-color: rgb(3, 7, 71);
+        }
+
+        .cipher-icon-slides {
             display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 40vh;
-            width: 100%;
-            padding: 0 80px;
-            box-sizing: border-box;
+            width: calc(150px * 20); /* Adjust based on the number of images */
+            animation: cipher-icon-scroll 10s linear infinite;
         }
 
-        .row {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-
-        .col {
-            flex: 1;
-            max-width: 100%;
-            padding: 0;
-        }
-
-        .crumina-module-slider {
-            padding: 0;
-        }
-
-        @media (min-width: 576px) {
-            .col-sm-12 {
-                max-width: 100%;
+        @keyframes cipher-icon-scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-1500px); /* Adjust based on the total width */
             }
         }
 
-        @media (min-width: 768px) {
-            .col-md-12 {
-                max-width: 100%;
+        .cipher-icon-slide {
+            width: 150px;
+            height: 50px;
+            flex-shrink: 0;
+        }
+
+        .cipher-icon-slide img {
+            width: 100%;
+            height: 50px;
+            display: block;
+        }
+        @media screen and (max-width: 1200px) {
+            .cipher-icon-slides {
+                width: calc(150px * 20); /* Adjust width for smaller screens */
+            }
+
+            @keyframes cipher-icon-scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-1500px);
+                }
             }
         }
 
-        @media (min-width: 992px) {
-            .col-lg-12 {
-                max-width: 100%;
+        @media screen and (max-width: 768px) {
+            .cipher-icon-slide {
+                width: 120px;
+                height: 60px;
+            }
+
+            .cipher-icon-slides {
+                width: calc(120px * 20); /* Adjust based on the number of images */
+            }
+
+            @keyframes cipher-icon-scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-1200px); /* Adjust based on the total width */
+                }
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .cipher-icon-slide {
+                gap: 30px;
+                width: 90px;
+                height: 50px;
+            }
+
+            .cipher-icon-slides {
+                width: calc(90px * 20); /* Adjust based on the number of images */
+            }
+
+            @keyframes cipher-icon-scroll {
+                0% {
+                    transform: translateX(0);
+                }
+                100% {
+                    transform: translateX(-900px); /* Adjust based on the total width */
+                }
             }
         }
     </style>
-    <a href="https://coinmarketcap.com" target="_blank">
-        <section>
-            <div class="container">
-                <div class="row">
-                    <div id="details" class="col col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="crumina-module crumina-module-slider crumina-slider--info-boxes">
-                            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
-                            <div id="coinmarketcap-widget-marquee" coins="1,1027,825,17545,1839,3890" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </a>
-<!-- end section -->
-<!-- <a href="https://coinmarketcap.com" target="_blank">
-<section class="ticker-main-cntr">
-<div class="ticker">
-    <div class="ticker__wrap">
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/eth/32" alt="Ethereum">
-            <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script>
-            <span>Ethereum (ETH)</span>
-            <span>$2,919.78</span>
-            <span class="red">-9.9%</span>
-        </div>
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/bnb/32" alt="BNB">
-            <span>BNB</span>
-            <span>$469.71</span>
-            <span class="red">-12.95%</span>
-        </div>
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/matic/32" alt="Polygon">
-            <span>Polygon (MATIC)</span>
-            <span>$0.442712</span>
-            <span class="red">-15.08%</span>
-        </div>
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/cpr/32" alt="Cipher">
-            <span>Cipher (CPR)</span>
-            <span>$0.000444</span>
-            <span class="green">+1.85%</span>
-        </div>
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/btc/32" alt="Bitcoin">
-            <span>Bitcoin (BTC)</span>
-            <span>$55,213.27</span>
-            <span class="red">-6.55%</span>
-        </div>
-        <div class="ticker__item">
-            <img src="https://cryptoicons.org/api/icon/usdt/32" alt="Tether">
-            <span>Tether USDt (USDT)</span>
-            <span>$0.99</span>
-            <span class="green">+0.02%</span>
-        </div>
-    </div>
-</div>
-</section>
-</a> -->
-    <!-- second section -->
-    <div class="container-cpr">
-        <div class="content-cpr">
-            <h1 class="content-h1-cpr">Cipher (CPR)</h1>
-            <p class="content-p-cpr">Cipher (CPR) is a utility token. The project started on 9th April 2018 with Ethereum Blockchain. On 19th Dec. 2021 the Cipher project migrated from Ethereum network to Polygon PoS network. Our team is based in India, United Kingdom and New Zealand. Our vision and aim is to create transparency, accountability and safest business. All users/ customers/investors/traders can participate with the project. Cipher is a digital asset that represents partial ownership of the company. It is similar to owning share/stock of the company. We are creating business apps to grow and we build best digital applications that function, that are understandable and usable. Cipher mobile apps offer better personalized content activity, faster, interactive, easy to maintain, high scalability, secured data and provides real time application access.</p>
-            <p class="content-p-cpr">Our aim is to create a unified ecosystem business without conducting an ICO or IEO. It is purely NON ICO business model. We target to distribute the Cipher token when a person utilizes our service or program or trade. Cipher transactions are truly efficient, transparent, and tradeable.</p>
-            <p class="content-p-cpr">Our Technique and management skills are to create a safe and easy-to-adapt tokenization in our business and easy use of our services or programs.</p>
-            <button class="content-btn-cpr">Cipher Contract</button>
-        </div>
-        <div class="image-cpr">
-            <img src="../img/phone.png" alt="Cipher mobile app">
+
+    <div class="cipher-icon-image-slider">
+        <div class="cipher-icon-slides">
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/binance3x.png" alt="Logo 1"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/COIN98@2x.png" alt="Logo 2"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/COINB@2x.png" alt="Logo 3"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/COINMA@2x.png" alt="Logo 4"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/COS@2x.png" alt="Logo 5"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/DIGITAL@2x.png" alt="Logo 6"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/gecko12x.png" alt="Logo 7"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/ime12x.png" alt="Logo 8"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/uniswap42x.png" alt="Logo 9"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/IMTOKE@2x.png" alt="Logo 10"></div>
+            <!-- Duplicating the images to create a seamless loop -->
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/INDO@2x.png" alt="Logo 1"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/META@2x.png" alt="Logo 2"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/NOMIC@2x.png" alt="Logo 3"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/OPEN@2x.png" alt="Logo 4"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/PARA@2x.png" alt="Logo 5"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/pngwing.com (2).png" alt="Logo 6"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/POLY@2x.png" alt="Logo 7"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/SUSHI@2x.png" alt="Logo 8"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/TRADIN@2x.png" alt="Logo 9"></div>
+            <div class="cipher-icon-slide"><img src="../svg-icons/icons/TRUST@2x.png" alt="Logo 10"></div>
         </div>
     </div>
 
-<br>
-<br><br>
-    <!-- third section -->
-
-    <div class="third-main-cntr">
-
-
-    <div class="third-container">
-        <h1 class="third-h1">Experience in the digital world<span class="third-dot">.</span></h1>
-        <p class="third-subtitle">5 Years+</p>
-        <div class="third-stats-container">
-            <div class="third-stat-item">
-                <h2 class="third-h2">15+</h2>
-                <p class="third-p">Applications</p>
-            </div>
-            <div class="third-stat-item">
-                <h2 class="third-h2">14900+</h2>
-                <p class="third-p">Wallet Holders</p>
-            </div>
-            <div class="third-stat-item">
-                <h2 class="third-h2">392400+</h2>
-                <p class="third-p">Users worldwide</p>
-            </div>
-            <div class="third-stat-item">
-                <h2 class="third-h2">60400+</h2>
-                <p class="third-p">Transactions</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<br><br><br>
-<!-- fourth section -->
-<div class="fourth-background-wave"></div>
-<div class="fourth-container">
-    <div class="fourth-laptop-container">
-        <img src="../img/pcnew.png" alt="Laptop showing Cipher analytics" class="fourth-laptop-image">
-        <div class="fourth-circle circle1"></div>
-        <div class="fourth-circle circle2"></div>
-        <div class="fourth-circle circle3"></div>
-    </div>
-    <div class="fourth-content">
-        <h1 class="fourth-h1">Access analytical market & price data.</h1>
-        <h2 class="fourth-h2">Technical Experience.</h2>
-        <p class="fourth-p">We are well-versed in a variety of operating systems, networks, and databases. We work with blockchain technology and use it in our business. We use this expertise to help customers with our projects.</p>
-    </div>
-</div>
-
-
-<!-- end section -->
-<br>
-<br>
-<br>
-<br><br>
-<br>
-<div class="swiper-container-main">
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-e.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-z.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-hd.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-eats.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-casa.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-w.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-tlk.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-mc.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-ls.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-el.png" alt=""></a></div>
-            <div class="swiper-slide"><a class="clients-item" href="#"><img src="https://ciphercpr.com/img/logos/cipher-h.png" alt=""></a></div>
-        </div>
-        <!-- Add Arrows -->
-
-    </div>
-</div>
-<br>
-<br>
-<br><br>
-<br><br><br>
-<!-- fifth section -->
-<div class="background-pattern"></div>
-<div class="fifth-container">
-    <div class="fifth-left-section">
-        <div class="fifth-dots">•••••••</div>
-        <h1 class="fifth-h1">Cipher<span class="fifth-dot">.</span></h1>
-        <h2 class="fifth-h2">Powered by Polygon PoS<span class="dot">.</span></h2>
-        <p class="fifth-subtitle">(An Ethereum Virtual Machine (EVM) enabled sidechain)</p>
-        <p class="fifth-highlight">Time for change! Make your choice!</p>
-        <p class="fifth-description">From the beginning, we are with Ethereum blockchain. In the current situtation, we spent mostly on fees for transferring, trading and maintaining assets on ETH Layer 1. Many companies find that constant maintenance and high fees eats into their budget for using layer 1 technology. So we have decided to develop with Layer 2 and created new contract on Polygon (MATIC) PoS to continue our business.We are balancing the expenses for good fortune and future economy. You can focus on us, what we do best running our business. With our last few years of experience in the crypto industry, we have practically evaluated many aspects, considering user and company benefits finally we have decided to develop on Polygon network.</p>
-    </div>
-    <div class="fifth-right-section">
-        <div class="fifth-stats">
-            <p class="fifth-p">Max supply: <span class="values-max">10,800,000,000.00 CPR</span></p>
-            <p class="fifth-p">Total supply: <span class="values-max">10,800,000,000.00 CPR</span></p>
-            <p class="fifth-p">Circulating supply: <span class="values-max">5,886,731,950 CPR</span></p>
-            <p class="fifth-p">Live Cipher price: <span class="values-max">0.0364559066044499 INR</span></p>
-        </div>
-        
-        <button class="fifth-cipher-btn">CIPHER (CPR)</button>
-        <div class="fifth-progress-bar">
-            <div class="fifth-progress"></div>
-            <span class="fifth-progress-start">5887M</span>
-            <span class="fifth-progress-end">10800M</span>
-        </div>
-    </div>
-</div>
-<!-- sixth section -->
-
-
-<!-- end section -->
- 
-<!-- seventh section -->
-<section class="container-grid">
-    <div class="container-icon">
-        <div class="grid-item"><a href="https://coin98.com/"><img src="../svg-icons/icons/COIN98@2x.png"
-                    alt="Image 1"></a></div>
-        <div class="grid-item"><a href="https://www.coinbase.com/wallet"><img src="../svg-icons/icons/COINB@2x.png"
-                    alt="Image 2"></a></div>
-        <div class="grid-item"><a href="https://coinmarketcap.com/currencies/cipher-v2/"><img src="../svg-icons/icons/COINMA@2x.png"
-                    alt="Image 3"></a></div>
-        <div class="grid-item"><a href="https://www.coininn.com/coin/CPR"><img src="../svg-icons/icons/COS@2x.png"
-                    alt="Image 4"></a></div>
-        <div class="grid-item"><a href="https://web3.bitget.com/en/"><img src="../svg-icons/icons/DIGITAL@2x.png"
-                    alt="Image 5"></a></div>
-        <div class="grid-item"><a href="https://token.im/"><img src="../svg-icons/icons/IMTOKE@2x.png"
-                    alt="Image 6"></a></div>
-        <div class="grid-item"><a href="https://api.indoex.io/"><img src="../svg-icons/icons/INDO@2x.png"
-                    alt="Image 7"></a></div>
-        <div class="grid-item"><a href="https://metamask.io/"><img src="../svg-icons/icons/META@2x.png"
-                    alt="Image 8"></a></div>
-        <div class="grid-item"><a href="https://cryptocointracker.com/api/nomics"><img src="../svg-icons/icons/NOMIC@2x.png"
-                    alt="Image 9"></a></div>
-        <div class="grid-item"><a href="https://app.openocean.finance/#/POLYGON/MATIC/CPR"><img src="../svg-icons/icons/OPEN@2x.png"
-                    alt="Image 10"></a></div>
-        <div class="grid-item"><a href="https://app.paraswap.io/#/?network=polygon&version=6.2"><img src="../svg-icons/icons/PARA@2x.png"
-                    alt="Image 11"></a></div>
-        <div class="grid-item"><a href="https://polygonscan.com/token/0xaa404804ba583c025fa64c9a276a6127ceb355c6"><img src="../svg-icons/icons/POLY@2x.png"
-                    alt="Image 12"></a></div>
-        <div class="grid-item"><a href="https://quickswap.exchange/#/swap"><img src="../svg-icons/icons/QUIK@2x.png"
-                    alt="Image 13"></a></div>
-        <div class="grid-item"><a href="https://www.sushi.com/swap"><img src="../svg-icons/icons/SUSHI@2x.png"
-                    alt="Image 14"></a></div>
-        <div class="grid-item"><a href="https://in.tradingview.com/chart/?symbol=UNISWAP3POLYGON%3ACPRWMATIC"><img src="../svg-icons/icons/TRADIN@2x.png"
-                    alt="Image 15"></a></div>
-        <div class="grid-item"><a href="https://trustwallet.com/"><img src="../svg-icons/icons/TRUST@2x.png"
-                    alt="Image 16"></a></div>
-
-
-
-                    <div class="grid-item"><a href="https://quickswap.exchange/#/swap"><img src="../svg-icons/icons/uniswap42x.png"
-                        alt="Image 13"></a></div>
-            <div class="grid-item"><a href="https://www.sushi.com/swap"><img src="../svg-icons/icons/ime12x.png"
-                        alt="Image 14"></a></div>
-            <div class="grid-item"><a href="https://in.tradingview.com/chart/?symbol=UNISWAP3POLYGON%3ACPRWMATIC"><img src="../svg-icons/icons/gecko12x.png"
-                        alt="Image 15"></a></div>
-            <div class="grid-item"><a href="https://www.binance.com/en-IN"><img src="../svg-icons/icons/binance12x.png"
-                        alt="Image 16"></a></div>
-    </div>
-</section>
-<!-- end section -->
-<!-- <hr style="margin-top: 50px; width: 70%; color: rgb(43, 43, 43);" class="divider"> -->
-
-
-<!-- start section -->
-    <footer class="custom-footer">
-   
-        <!-- Grid container -->
-        <div class="custom-container">
-            <div class="logo-container">
-                <img src="../img/logo-primary.png" alt="Logo" class="footer-logo">
-            </div>
-            <!--Grid row-->
-            <div class="custom-row">
-                <!--Grid column-->
-                <div class="custom-column">
-                    <p class="footer-text">
-                        Digital Empowerment & Transparency.
-                        The world of blockchain is fast-paced and emerging technology. That's why our goal is to provide an experience that is tailored to your needs. No matter how much is the budget for changing from one to another, we pride ourselves in providing professional customer service.
-                    </p>
-                </div>
-                <!--Grid column-->
-                <div class="custom-column">
-                    <p class="footer-text">
-                        Disclaimer: The cryptocurrency market is a volatile and risky market.
-                        Cryptocurrency trading may not be suitable for all users.
-                        Users act at his/her own risk in reliance on the contents of the website.
-                        He/she can make a decision to act or not act.
-                    </p>
-                </div>
-                <!--Grid column-->
-            </div>
-            <!--Grid row-->
-            <div class="social-media-icons">
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"><img style="width: 25px;" src="../img/icons8-facebook-50.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-twitter"><img  style="width: 25px;" src="../img/icons8-instagram-50.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"><img  style="width: 25px;" src="../img/icons8-telegram-50.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"><img style="width: 25px;" src="../img/icons8-github-50.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-facebook-f"><img style="width: 25px;" src="../img/icons8-linkedin-50.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-twitter"><img style="width: 25px;" src="../img/icons8-medium-30.png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-instagram"><img style="width: 25px;" src="../img/icons8-twitter-50 (1).png" alt=""></i></a>
-                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"><img style="width: 25px;" src="../img/icons8-youtube-50.png" alt=""></i></a>
-           
-            </div>
-        </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="custom-copyright">
-       <span style="color: rgb(204, 204, 204);">   © 2020 Copyright:</span> 
-          <a class="footer-link" href="https://cipher.com.co/">cipher.com</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- image animation fourth -->
     <script>
-document.addEventListener('DOMContentLoaded', () => {
-    const laptopImage = document.querySelector('.fourth-laptop-image');
-    laptopImage.style.transform = 'translateY(50px)';
-    laptopImage.style.opacity = '0';
+        const slides = document.querySelector('.cipher-icon-slides');
+        let startPos = 0;
+        let currentTranslate = 0;
+        let prevTranslate = 0;
+        let dragging = false;
+        let animationId;
 
-    setTimeout(() => {
-        laptopImage.style.transition = 'all 1s ease-out';
-        laptopImage.style.transform = 'translateY(0)';
-        laptopImage.style.opacity = '1';
-    }, 500);
-});
+        slides.addEventListener('mousedown', startDrag);
+        slides.addEventListener('mousemove', drag);
+        slides.addEventListener('mouseup', endDrag);
+        slides.addEventListener('mouseleave', endDrag);
 
+        function startDrag(e) {
+            dragging = true;
+            startPos = e.clientX;
+            cancelAnimationFrame(animationId);
+            slides.style.animation = 'none'; // Stop the animation while dragging
+        }
+
+        function drag(e) {
+            if (dragging) {
+                const currentPosition = e.clientX;
+                currentTranslate = prevTranslate + currentPosition - startPos;
+                slides.style.transform = `translateX(${currentTranslate}px)`;
+            }
+        }
+
+        function endDrag() {
+            dragging = false;
+            const movedBy = currentTranslate - prevTranslate;
+
+            if (movedBy < -75) {
+                currentTranslate -= 150; // Move to the next slide
+            }
+            if (movedBy > 75) {
+                currentTranslate += 150; // Move to the previous slide
+            }
+
+            prevTranslate = currentTranslate;
+
+            slides.style.transform = `translateX(${currentTranslate}px)`;
+            slides.style.animation = 'cipher-icon-scroll 10s linear infinite'; // Resume the animation
+            animationId = requestAnimationFrame(autoSlide);
+        }
     </script>
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script>
-    var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 5,
-        spaceBetween: 20,
-        navigation: {
-            nextEl: '.swiper-btn-next',
-            prevEl: '.swiper-btn-prev',
-        },
-        loop: true, // Enable looping
-        autoplay: { // Enable autoplay
-            delay: 2500, // Delay between transitions in milliseconds
-            disableOnInteraction: false, // Continue autoplay after interaction
-        },
-    });
-</script>
-
-
-<script src="https://cipher.com.co/js/jquery-3.3.1.js"></script>
-
-<script src="https://cipher.com.co/js/js-plugins/leaflet.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/MarkerClusterGroup.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/crum-mega-menu.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/waypoints.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/jquery-circle-progress.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/segment.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/bootstrap.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/imagesLoaded.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/jquery.matchHeight.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/jquery-countTo.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/Headroom.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/jquery.magnific-popup.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/popper.min.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/particles.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/perfect-scrollbar.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/jquery.datetimepicker.full.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/svgxuse.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/select2.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/smooth-scroll.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/sharer.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/isotope.pkgd.min.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/ajax-pagination.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/swiper.min.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/material.min.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/orbitlist.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/highstock.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/bootstrap-datepicker.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/TimeCircles.js"></script>
-<script src="https://cipher.com.co/js/js-plugins/ion.rangeSlider.js"></script>
-
-<!-- FontAwesome 5.x.x JS -->
-
-<script defer src="https://cipher.com.co/fonts/fontawesome-all.js"></script>
-
-<script src="https://cipher.com.co/js/main.js"></script>
-
-<!-- SVG icons loader -->
-<script src="https://cipher.com.co/js/svg-loader.js"></script>
-<!-- /SVG icons loader -->
-
 </body>
 </html>
